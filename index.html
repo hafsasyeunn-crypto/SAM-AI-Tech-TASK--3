@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1b">
+  <meta name="description" content="Syeda Hafsa Unnisa's personal portfolio featuring AI projects, skills, leadership and certificates.">
+  <title>Hafsa | Personal Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="home">
+    <nav class="navbar container">
+      <a class="logo" href="#home">H<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact" class="nav-contact">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO / INTRODUCTION -->
+    <section class="hero container">
+      <div class="hero-content reveal">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          COMPUTER SCIENCE & ENGINEERING STUDENT
+        </div>
+
+        <p class="eyebrow">HELLO, WELCOME TO MY WORLD</p>
+
+        <h1>
+          Hi, I'm<br>
+          <span class="gradient-text">Syeda Hafsa</span><br>
+          Unnisa<span class="cyan">.</span>
+        </h1>
+
+        <h2 class="hero-subtitle">
+          Aspiring AI Professional <span class="cyan">|</span>
+          Tech Enthusiast <span class="cyan">|</span>
+          IEEE Leader
+        </h2>
+
+        <p class="hero-description">
+          I explore technology, build creative project ideas,
+          and use my curiosity, communication and leadership
+          skills to turn ideas into meaningful solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="button button-primary">
+            Explore My Work ↗
+          </a>
+
+          <a href="Hafsa_Resume.pdf" class="button button-outline"
+             download>
+            Download Resume ↓
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="#about">Discover my journey ↓</a>
+          <span>•</span>
+          <span>Learning. Creating. Growing.</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-frame">
+          <img src="image.jpeg" alt="Syeda Hafsa Unnisa"
+               class="profile-image">
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="float-icon">✦</span>
+          <div>
+            <strong>Curious Mind</strong>
+            <small>Always learning</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="float-icon">⌘</span>
+          <div>
+            <strong>Ideas to Impact</strong>
+            <small>Project-driven growth</small>
+          </div>
+        </div>
+
+        <div class="hero-decoration">HAFSA</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little about my journey, interests and ambitions.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card reveal">
+          <span class="section-number">01 / ABOUT</span>
+
+          <h3>Curiosity is where my journey begins.</h3>
+
+          <p>
+            I am a Computer Science and Engineering student with
+            a strong interest in Artificial Intelligence, technology
+            and innovative problem-solving.
+          </p>
+
+          <p>
+            I enjoy exploring new tools, developing project ideas,
+            preparing presentations and learning how technology
+            can address real-world challenges.
+          </p>
+
+          <p>
+            Through IEEE activities, project work and professional
+            job simulations, I have developed communication,
+            teamwork, leadership and documentation skills.
+            I am a quick learner who values responsibility,
+            adaptability and continuous improvement.
+          </p>
+
+          <p>
+            My goal is to grow as a technology professional,
+            contribute to meaningful projects and keep expanding
+            my technical and professional abilities.
+          </p>
+
+          <div class="about-tags">
+            <span>AI & Technology</span>
+            <span>Leadership</span>
+            <span>Continuous Learning</span>
+          </div>
+        </div>
+
+        <div class="about-side reveal">
+          <div class="mini-card glass-card">
+            <span class="mini-icon">✧</span>
+            <h3>My Mindset</h3>
+            <p>Stay curious, learn from challenges and keep improving.</p>
+          </div>
+
+          <div class="mini-card glass-card">
+            <span class="mini-icon">◎</span>
+            <h3>My Interest</h3>
+            <p>AI, web development, creative projects and technology.</p>
+          </div>
+
+          <div class="mini-card glass-card">
+            <span class="mini-icon">↗</span>
+            <h3>My Goal</h3>
+            <p>Build useful solutions and grow through practical experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHAT I BRING</p>
+          <h2>My Skills & <span class="gradient-text">Strengths</span></h2>
+          <p>A blend of technical foundations, creativity and people skills.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">⌘</span>
+            <h3>Technical Foundations</h3>
+            <div class="skill-tags">
+              <span>Python Basics</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Web Fundamentals</span>
+              <span>AI Tools</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">▦</span>
+            <h3>Office & Documentation</h3>
+            <div class="skill-tags">
+              <span>MS Word</span>
+              <span>MS Excel</span>
+              <span>Budget Sheets</span>
+              <span>Documentation</span>
+              <span>PowerPoint</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">✧</span>
+            <h3>Communication</h3>
+            <div class="skill-tags">
+              <span>Public Speaking</span>
+              <span>Event Hosting</span>
+              <span>Customer Communication</span>
+              <span>Presentation Skills</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">♧</span>
+            <h3>Leadership & Teamwork</h3>
+            <div class="skill-tags">
+              <span>Team Coordination</span>
+              <span>IEEE Activities</span>
+              <span>Responsibility</span>
+              <span>Adaptability</span>
+              <span>Time Management</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">◇</span>
+            <h3>Problem Solving</h3>
+            <div class="skill-tags">
+              <span>Analytical Thinking</span>
+              <span>Task Prioritization</span>
+              <span>Learning New Tools</span>
+              <span>Creative Thinking</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass-card reveal">
+            <span class="skill-icon">文</span>
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>English</span>
+              <span>Urdu</span>
+              <span>Hindi</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="small-note">
+          Technical skills are presented as learning foundations.
+          I continue to develop them through projects and practice.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">IDEAS IN ACTION</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Project concepts, prototypes and work samples from my journey.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal">
+          <a class="project-image" href="p1.jpeg"
+             target="_blank" rel="noopener">
+            <img src="p1.jpeg"
+                 alt="SETU-SAFE technical approach presentation">
+            <span class="image-overlay">View evidence ↗</span>
+          </a>
+
+          <div class="project-body">
+            <span class="project-category">MEDTECH / HEALTHTECH</span>
+            <h3>SETU-SAFE — Set U Nexus</h3>
+            <p>
+              An AI-driven multimodal trauma triage and rehabilitation
+              pipeline concept for assessing distress signals and
+              routing cases to appropriate human support.
+            </p>
+            <p class="project-detail">
+              Smart India Hackathon 2026 · Problem statement SIH26093
+            </p>
+            <div class="skill-tags">
+              <span>AI Concept</span>
+              <span>Decision Support</span>
+              <span>Healthcare Technology</span>
+            </div>
+            <a href="p2.jpeg" target="_blank" rel="noopener"
+               class="text-link">View project title slide ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <a class="project-image" href="p3.jpeg"
+             target="_blank" rel="noopener">
+            <img src="p3.jpeg"
+                 alt="Avail Sense AI project presentation evidence">
+            <span class="image-overlay">View evidence ↗</span>
+          </a>
+
+          <div class="project-body">
+            <span class="project-category">AI / INVENTORY INSIGHTS</span>
+            <h3>Avail Sense AI</h3>
+            <p>
+              An AI-related project focused on product availability
+              insights and helping address the gap between digital
+              inventory information and what customers find in stores.
+            </p>
+            <div class="skill-tags">
+              <span>AI Project</span>
+              <span>Data Insights</span>
+              <span>Prototype</span>
+            </div>
+            <a class="text-link"
+               href="https://avail-sense-ai.lovable.app/"
+               target="_blank" rel="noopener">
+              Explore live prototype ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-placeholder">
+            <span>✦</span>
+            <h3>Learning Through Simulations</h3>
+            <p>Professional scenarios and practical task-based learning</p>
+          </div>
+
+          <div class="project-body">
+            <span class="project-category">PROFESSIONAL DEVELOPMENT</span>
+            <h3>Job Simulation Work</h3>
+            <p>
+              Completed guided professional simulations involving
+              technology tasks, cybersecurity scenarios, data-model
+              unification and customer-service problem-solving.
+            </p>
+            <div class="skill-tags">
+              <span>Cybersecurity Scenarios</span>
+              <span>Data Concepts</span>
+              <span>Customer Service</span>
+            </div>
+            <a href="#certificates" class="text-link">
+              View certificates ↗
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section section-alt" id="achievements">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY JOURNEY SO FAR</p>
+          <h2>Leadership & <span class="gradient-text">Achievements</span></h2>
+          <p>Experiences that have helped me learn, contribute and grow.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-label">LEADERSHIP</span>
+              <h3>IEEE Student Activities</h3>
+              <p>
+                Served as an IEEE Treasurer and currently hold an
+                IEEE Region 10 Secretary role, as shared in my
+                professional experience.
+              </p>
+              <p>
+                Related activities include event documentation,
+                coordination and involvement with IEEE SPS and
+                CASS Region 10.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-label">PUBLIC SPEAKING</span>
+              <h3>Event Hosting & Volunteering</h3>
+              <p>
+                Hosted an IEEE SPS Seasonal School and participated
+                in IEEE-sponsored activities, volunteering and
+                event-related work.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-label">PROJECT WORK</span>
+              <h3>Smart India Hackathon 2026</h3>
+              <p>
+                Worked on the SETU-SAFE concept and presentation
+                materials for the MedTech / HealthTech problem
+                statement SIH26093.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-label">RECOGNITION</span>
+              <h3>Presentation & Learning</h3>
+              <p>
+                Received a prize for a food-waste PowerPoint
+                presentation and continued building skills through
+                professional simulations and project work.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section container" id="certificates">
+      <div class="section-heading reveal">
+        <p class="eyebrow">PROOF OF LEARNING</p>
+        <h2>Certificates & <span class="gradient-text">Work Samples</span></h2>
+        <p>Open an image to view the full-size evidence.</p>
+      </div>
+
+      <div class="certificate-grid">
+        <article class="certificate-card glass-card reveal">
+          <a href="p4.jpeg" target="_blank" rel="noopener">
+            <img src="p4.jpeg" alt="Deloitte Technology Job Simulation certificate">
+          </a>
+          <div class="certificate-info">
+            <span class="project-category">FORAGE</span>
+            <h3>Deloitte Australia Technology Job Simulation</h3>
+            <p>Certificate of completion · October 3, 2026</p>
+            <a href="p4.jpeg" target="_blank" rel="noopener"
+               class="text-link">View certificate ↗</a>
+          </div>
+        </article>
+
+        <article class="certificate-card glass-card reveal">
+          <a href="p5.jpeg" target="_blank" rel="noopener">
+            <img src="p5.jpeg" alt="Bloomberg Client Service Job Simulation certificate">
+          </a>
+          <div class="certificate-info">
+            <span class="project-category">FORAGE</span>
+            <h3>Bloomberg Client Service Job Simulation</h3>
+            <p>Certificate of completion · October 7, 2026</p>
+            <a href="p5.jpeg" target="_blank" rel="noopener"
+               class="text-link">View certificate ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="evidence-note glass-card">
+        <span class="mini-icon">ⓘ</span>
+        <p>
+          Additional project slides and supporting evidence are
+          available in the project cards above. Image previews open
+          the original files so visitors can inspect the details.
+        </p>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section container" id="resume">
+      <div class="resume-panel glass-card reveal">
+        <div>
+          <p class="eyebrow">LET'S CONNECT PROFESSIONALLY</p>
+          <h2>Interested in my journey?</h2>
+          <p>
+            Explore my experience, skills and educational background
+            in my resume.
+          </p>
+        </div>
+
+        <a class="button button-primary"
+           href="Hafsa_Resume.pdf" download>
+          Download My Resume ↓
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SAY HELLO</p>
+        <h2>Let's <span class="gradient-text">Connect</span></h2>
+        <p>For professional opportunities, collaboration or a friendly hello.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card glass-card reveal">
+          <h3>Get in touch</h3>
+          <p>
+            I'm interested in learning, collaborating on meaningful
+            projects and exploring opportunities to grow.
+          </p>
+
+          <!-- Replace the example email below with your real email. -->
+          <a class="contact-link" id="emailLink"
+             href="hafsasyeunn@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span>
+              <small>Email me</small>
+              <strong>hafsasyeunn@gmail.com</strong>
+            </span>
+          </a>
+             
+             <!-- Phone number -->
+          <a class="contact-link" href="tel:9347348817">
+            <span class="contact-icon">☎</span>
+            <span>
+            <small>Call me</small>
+            <strong>+91 9347348817  </strong>
+            </span>
+           </a>
+
+          <!-- Replace # with your actual LinkedIn profile URL. -->
+          <a class="contact-link" id="linkedinLink"
+             href="#"
+             target="_blank" rel="noopener">
+            <span class="contact-icon">in</span>
+            <span>
+              <small>Professional profile</small>
+              <strong>Connect on LinkedIn</strong>
+            </span>
+          </a>
+
+          <p class="small-note">
+            Update the email and LinkedIn links in index.html before
+            publishing your website.
+          </p>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contactForm">
+          <h3>Send a message</h3>
+
+          <label for="visitorName">Your name</label>
+          <input id="visitorName" name="name" type="text"
+                 placeholder="Enter your name" required>
+
+          <label for="visitorEmail">Your email</label>
+          <input id="visitorEmail" name="email" type="email"
+                 placeholder="Enter your email" required>
+
+          <label for="visitorMessage">Your message</label>
+          <textarea id="visitorMessage" name="message"
+                    rows="5" placeholder="Write your message..."
+                    required></textarea>
+
+          <button class="button button-primary" type="submit">
+            Prepare Email ↗
+          </button>
+
+          <p class="small-note">
+            This form opens your email application to send the message.
+            It does not store messages on a server.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">H<span>.</span></a>
+      <p>Designed & built with curiosity by Syeda Hafsa Unnisa.</p>
+      <p>© <span id="currentYear"></span> Hafsa. All rights reserved.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
